@@ -15,6 +15,11 @@ export const Container = styled.div`
       border-bottom: 2px solid var(--color-orange);
       letter-spacing: 1px;
   }
+
+  @media screen and (max-width: 748px){
+      width: 100%;
+      padding: 30px 5px;
+  }
 `;
 
 export const NoticiasLink = styled(Link)`
@@ -40,6 +45,13 @@ export const NoticiasLink = styled(Link)`
         background: var(--color-primary);
     }
     
+    @media screen and (max-width: 580px){
+        padding: 15px 5px;
+
+        p{
+            font-size: 0.875em;
+        }
+  }
 `
 
 export const Noticia = styled(Link)`

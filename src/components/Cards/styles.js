@@ -11,6 +11,11 @@ export const Container = styled.div`
     background-color: var(--color-primary);
     border-top: solid 1px #e5e5e5;
 
+    @media screen and (max-width: 500px){
+        
+        padding: 30px 5px;
+    }
+
 `;
 
 export const Card = styled(Link)`
@@ -19,6 +24,10 @@ export const Card = styled(Link)`
     border-radius: 6px;
     box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, .1);
     background-color: var(--color-white);
+
+    &:hover{
+        background-color: var(--color-hover-card);
+    }
 
     img{
         height: 160px;

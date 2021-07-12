@@ -25,6 +25,9 @@ export const FooterLink = styled(Link)`
     color: var(--color-white);
     border-right: 1px solid #fff;
 
+    @media screen and (max-width: 748px){
+        border-right: none;
+    }
     
 `
 

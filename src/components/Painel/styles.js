@@ -13,6 +13,17 @@ export const Container = styled.div`
         align-items: center;
     }
 
+    @media screen and (max-width: 748px){
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        
+
+        >section{
+            flex-direction: column;
+            
+        }
+    }
     
 `;
 
@@ -61,5 +72,17 @@ export const PainelBox = styled.div`
                 margin-bottom: 5px;
             }
         }
+    }
+
+    @media screen and (max-width: 748px){
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--color-border);
+        text-align: left;
+        div{
+            flex-direction: row;
+            
+        }
+        
     }
 `

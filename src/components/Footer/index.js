@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { Container, FooterLink, Icons } from './styles';
-import {VscGlobe} from "react-icons/vsc";
 import {RiArrowDownSFill} from 'react-icons/ri';
 import {AiOutlineInstagram} from "react-icons/ai";
 import {GrFacebook} from "react-icons/gr";

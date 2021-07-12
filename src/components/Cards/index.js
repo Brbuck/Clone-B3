@@ -9,7 +9,7 @@ function Cards() {
           {
               CardsData.map((item, index) => {
                   return<Card key={index}>
-                      <img src={photo} alt='image'>
+                      <img src={photo} alt='imagem'>
                       </img>
                       <div>
                           <h2>{item.title}</h2>

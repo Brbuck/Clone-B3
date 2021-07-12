@@ -20,6 +20,11 @@ export const Container = styled.div`
       font-family: 'Montserrat', sans-serif;
   
   }
+    @media screen and (max-width: 748px){
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 30px 5px;
+    }
 `;
 
 export const MenuLink = styled(Link)`

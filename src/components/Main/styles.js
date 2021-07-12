@@ -9,4 +9,8 @@ export const Container = styled.div`
         flex-direction: column;
         padding: 0px 90px;
     }
+
+    @media screen and (max-width: 748px){
+      padding: 0px 5px;
+  }
 `;
