@@ -1,8 +1,10 @@
-# Clone (Em construção)
+# Clone do site da B3 (Em construção)
 
-# Clone B3
+## Sobre o Projeto
 
-## Techs
+Clone site B3 (parcial) para fins de estudo.
+
+## Tecnologias
 
 * React
 * Styled Components
@@ -10,14 +12,9 @@
 * React Icons
 
 
+# Como executar o projeto
 
-## Starting Dev Environment
-
-    * Run npm install or yarn install.
-    * Run yarn start.
-
+1. `npm install` ou `yarn install`.
+2. `npm start` ou `yarn start` e acesse `http://localhost:3000`
 
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
